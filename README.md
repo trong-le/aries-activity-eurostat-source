@@ -12,10 +12,12 @@ Specifies the format the data should be returned in.
 
 ### Dataset Code
 Specifies which dataset you're attempting to access.
+<br>
 Ex. `sts_inpp_m --> Producer prices in industry, total - monthly data`
 
 ### NACE_R2
 Specifies which indices within the dataset you're attempting to access.
+
 Ex. `C27 --> Manufacture of electrical equipment`
 
 ### Precision
