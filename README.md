@@ -8,7 +8,8 @@ This method takes in one dataset, country, and indice and outputs all data for a
 ## Parameters
 ### Format
 Specifies the format the data should be returned in.
-`JSON` or `Unicode`
+<br>
+Ex. `JSON` or `Unicode`
 
 ### Dataset Code
 Specifies which dataset you're attempting to access.
@@ -17,19 +18,22 @@ Ex. `sts_inpp_m --> Producer prices in industry, total - monthly data`
 
 ### NACE_R2
 Specifies which indices within the dataset you're attempting to access.
-
+<br>
 Ex. `C27 --> Manufacture of electrical equipment`
 
 ### Precision
 Specifies what precision (# of decimals) the data is returned.
+<br>
 Ex. `2 --> 123.XX`
 
 ### Unit
 Specifies the unit for the data returned.
+<br>
 Ex. `I10 --> Indexed with the year 2010 = 100`
 
 ### Seasonal Adjustment
 Specifies whether the data should be seasonally adjusted or not.
+<br>
 Ex. `NSA` --> Not Seasonally Adjusted
 
 ## To Do
